@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: final
-          image: docker.io/phengbunath/final:3
+          image: docker.io/phengbunath/final:2
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
